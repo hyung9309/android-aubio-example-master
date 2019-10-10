@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\CHO\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "pitch-release-x86": {
+      "artifactName": "pitch",
+      "buildCommand": "C:\\Users\\CHO\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/release/obj/local/x86/libpitch.so",
+      "abi": "x86",
+      "output": "C:\\Users\\CHO\\Desktop\\android-aubio-example-master\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libpitch.so"
+    }
+  }
+}

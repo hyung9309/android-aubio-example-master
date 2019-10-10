@@ -1,0 +1,1 @@
+make: `C:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libpitch.so' is up to date.

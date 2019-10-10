@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "C:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\CHO\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "pitch-debug-x86": {
+      "buildCommand": "C:\\Users\\CHO\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\CHO\\Desktop\\android-aubio-example-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/CHO/Desktop/android-aubio-example-master/app/build/intermediates/ndkBuild/debug/obj/local/x86/libpitch.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "pitch",
+      "files": [
+        {
+          "src": "C:\\Users\\CHO\\Desktop\\android-aubio-example-master\\jni\\pitch.c",
+          "flags": "-target i686-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/CHO/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/CHO/Desktop/android-aubio-example-master/jni/include -IC:/Users/CHO/Desktop/android-aubio-example-master/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "C:\\Users\\CHO\\Desktop\\android-aubio-example-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libpitch.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "C:\\Users\\CHO\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
